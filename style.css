@@ -404,3 +404,29 @@ tfoot td {
     font-weight: bold;
 }
 
+
+.notes-area {
+    background-color: white;
+    border: 2px solid #9db4e8;
+    border-radius: 8px;
+    max-height: 12rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0.5rem 1rem;
+}
+
+.notes-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.notes-list li {
+    overflow-wrap: break-word;
+    padding: 0.5rem 0;
+}
+
+.notes-list li:not(:last-child) {
+    border-bottom: 1px dotted #9db4e8;
+}
+
