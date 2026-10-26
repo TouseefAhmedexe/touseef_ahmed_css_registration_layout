@@ -112,6 +112,57 @@
                         </p>
                     </fieldset>
 
+                    <fieldset>
+                        <legend>Training Preferences</legend>
+
+                        <p>
+                            <label class="required-label" for="start-date">Available Start Date</label><br>
+                            <input type="date" id="start-date" name="start_date" min="2026-11-02" max="2027-01-31" required>
+                        </p>
+
+                        <p>
+                            <label class="required-label" for="starting-milestone">Starting Milestone</label><br>
+                            <select id="starting-milestone" name="starting_milestone" required>
+                                <option value="" selected>-- Select a milestone --</option>
+                                <optgroup label="HTML Milestones">
+                                    <option value="html-basics">HTML Basics and Forms</option>
+                                    <option value="html-tables">Tables and Better Forms</option>
+                                    <option value="html-media">Media and Page Sections</option>
+                                </optgroup>
+                                <optgroup label="CSS Milestones">
+                                    <option value="css-basics">CSS Basics</option>
+                                    <option value="css-layout">Box Model and Layout</option>
+                                </optgroup>
+                            </select>
+                        </p>
+
+                        <p>
+                            <span>Work Mode</span><br>
+
+                            <input type="radio" id="mode-onsite" name="work_mode" value="on-site" checked>
+                            <label for="mode-onsite">On-site</label>
+
+                            <input type="radio" id="mode-remote" name="work_mode" value="remote">
+                            <label for="mode-remote">Remote</label>
+
+                            <input type="radio" id="mode-hybrid" name="work_mode" value="hybrid">
+                            <label for="mode-hybrid">Hybrid</label>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Documents</legend>
+
+                        <p>
+                            <label for="portfolio-url">Portfolio URL</label><br>
+                            <input type="url" id="portfolio-url" name="portfolio_url" placeholder="https://www.yourportfolio.com" autocomplete="url">
+                        </p>
+
+                        <p>
+                            <label class="required-label" for="resume-file">Resume (PDF, DOC or DOCX)</label><br>
+                            <input type="file" id="resume-file" name="resume_file" accept=".pdf,.doc,.docx" required>
+                        </p>
+                    </fieldset>
                 </form>
             </section>            
         </main>
