@@ -61,6 +61,59 @@
                     </div>
                 </div>
             </section>
+
+            <section id="registration">
+                <h2>Registration Form</h2>
+
+                <p>Fields marked with a red star are required.</p>
+
+                <form id="registration-form">
+
+                    <fieldset>
+                        <legend>Personal Information</legend>
+
+                        <p>
+                            <label for="company-name">Internship Company</label><br>
+                            <input type="text" id="company-name" name="company_name" value="Bloomrix" disabled>
+                        </p>
+
+                        <p>
+                            <label class="required-label" for="first-name">First Name</label><br>
+                            <input type="text" id="first-name" name="first_name" placeholder="Enter your first name" autocomplete="given-name" minlength="2" maxlength="30" pattern="[A-Za-z ]+" title="Use letters and spaces only" required>
+                        </p>
+
+                        <p>
+                            <label class="required-label" for="last-name">Last Name</label><br>
+                            <input type="text" id="last-name" name="last_name" placeholder="Enter your last name" autocomplete="family-name" minlength="2" maxlength="30" pattern="[A-Za-z ]+" title="Use letters and spaces only" required>
+                        </p>
+
+                        <p>
+                            <label class="required-label" for="date-of-birth">Date of Birth</label><br>
+                            <input type="date" id="date-of-birth" name="date_of_birth" min="1980-01-01" max="2008-12-31" autocomplete="bday" required>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Contact Details</legend>
+
+                        <p>
+                            <label class="required-label" for="email-address">Email Address</label><br>
+                            <input type="email" id="email-address" name="email_address" placeholder="example@gmail.com" autocomplete="email" required>
+                        </p>
+
+                        <p>
+                            <label class="required-label" for="phone-number">Phone Number</label><br>
+                            <input type="tel" id="phone-number" name="phone_number" placeholder="03001234567" autocomplete="tel" maxlength="11" pattern="[0-9]{11}" title="Enter exactly 11 digits" required>
+                        </p>
+
+                        <p>
+                            <label class="required-label" for="home-address">Home Address</label><br>
+                            <textarea id="home-address" name="home_address" rows="4" cols="40" placeholder="House number, street, city" autocomplete="street-address" minlength="10" maxlength="200" required></textarea>
+                        </p>
+                    </fieldset>
+
+                </form>
+            </section>            
         </main>
 
     </div>
