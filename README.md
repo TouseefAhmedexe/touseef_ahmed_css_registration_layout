@@ -17,7 +17,7 @@ write is the width I get.
 ## Problems found with DevTools
 1. Box model: the form fields and the container were wider than their parents. In the
    Computed tab the box-model diagram showed width plus padding plus border. Fixed with
-   * { box-sizing: border-box; }
+   * { box-sizing: border-box; } 
 2. Float: the dashed box around the two columns collapsed to a thin line because floated
    children take no space in the parent. The Elements panel showed a height of 4px.
    Fixed with a ::after rule that uses clear: both.
