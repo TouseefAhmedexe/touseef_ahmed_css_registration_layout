@@ -476,3 +476,15 @@ tfoot td {
     z-index: 1;
 }
 
+
+#page-footer {
+    background-color: #0f2f73;
+    border-radius: 8px;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#page-footer p {
+    margin: 0.25rem 0;
+}
