@@ -430,3 +430,49 @@ tfoot td {
     border-bottom: 1px dotted #9db4e8;
 }
 
+
+.demo-box {
+    background-color: #dbe5f8;
+    border: 2px solid #1b4db3;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+}
+
+/* display: none removes the box and its space. visibility: hidden hides the box but keeps its space. */
+.hidden-display {
+    display: none;
+}
+
+.hidden-visibility {
+    visibility: hidden;
+}
+
+.faded-box {
+    opacity: 0.3;
+}
+
+.layer-demo {
+    padding: 0.5rem 0;
+}
+
+.layer-first,
+.layer-second {
+    border: 2px solid #1b4db3;
+    margin: 0;
+    padding: 1rem;
+    position: relative;
+    width: 60%;
+}
+
+.layer-first {
+    background-color: #ffd54f;
+    z-index: 2;
+}
+
+.layer-second {
+    background-color: #9db4e8;
+    left: 2rem;
+    margin-top: -1rem;
+    z-index: 1;
+}
+
