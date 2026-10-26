@@ -309,3 +309,40 @@ input[type="checkbox"]:checked + label {
     font-weight: bold;
 }
 
+
+button {
+    background: linear-gradient(#2f6fed, #1b4db3);
+    border: 2px solid #1b4db3;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    padding: 0.6em 1.4em;
+}
+
+button:hover {
+    background: linear-gradient(#1b4db3, #0f2f73);
+}
+
+button:active {
+    box-shadow: none;
+    opacity: 0.8;
+}
+
+button:focus {
+    outline: 3px solid #f5b301;
+    outline-offset: 2px;
+}
+
+button[type="reset"] {
+    background: white;
+    color: #1b4db3;
+}
+
+button[type="reset"]:hover {
+    background: #e8f0fe;
+}
+
