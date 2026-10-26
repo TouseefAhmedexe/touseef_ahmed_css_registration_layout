@@ -159,3 +159,33 @@ main > section h2 {
     content: "";
     display: block;
 }
+
+
+.info-card {
+    background-color: white;
+    border: 1px solid #9db4e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.info-card h3 {
+    margin: 0 0 0.5rem;
+}
+
+.info-card ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.status-badge {
+    background-color: #2e7d32;
+    border-radius: 12px;
+    color: white;
+    font-size: 0.85rem;
+    padding: 0.2rem 0.8rem;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.75rem;
+    z-index: 2;
+}
