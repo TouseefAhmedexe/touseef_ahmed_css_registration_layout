@@ -270,3 +270,42 @@ input[type="checkbox"] + label {
     margin-right: 1rem;
 }
 
+
+.required-label::after {
+    color: #c62828;
+    content: " *";
+}
+
+input:required {
+    background-color: #fffdf5;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #e8f0fe;
+    border-color: #1b4db3;
+    outline: 3px solid #f5b301;
+}
+
+input:required:valid {
+    border-color: #2e7d32;
+}
+
+input:required:invalid:focus {
+    border-color: #c62828;
+    outline-color: #c62828;
+}
+
+input:disabled {
+    background-color: #e9edf3;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+    color: #1b4db3;
+    font-weight: bold;
+}
+
