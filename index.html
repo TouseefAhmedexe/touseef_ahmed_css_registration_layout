@@ -163,6 +163,35 @@
                             <input type="file" id="resume-file" name="resume_file" accept=".pdf,.doc,.docx" required>
                         </p>
                     </fieldset>
+
+                    <fieldset>
+                        <legend>Areas of Interest</legend>
+
+                        <p>
+                            <input type="checkbox" id="interest-web" name="interests" value="web-development" checked>
+                            <label for="interest-web">Web Development</label>
+
+                            <input type="checkbox" id="interest-backend" name="interests" value="backend-development">
+                            <label for="interest-backend">Backend Development</label>
+
+                            <input type="checkbox" id="interest-cloud" name="interests" value="cloud-and-devops">
+                            <label for="interest-cloud">Cloud and DevOps</label>
+                        </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Terms and Conditions</legend>
+
+                        <p>
+                            <input type="checkbox" id="terms-accepted" name="terms_accepted" value="accepted" required>
+                            <label class="required-label" for="terms-accepted">I confirm that the information is correct and I accept the terms</label>
+                        </p>
+                    </fieldset>
+
+                    <p>
+                        <button type="submit">Submit Registration</button>
+                        <button type="reset">Reset Form</button>
+                    </p>
                 </form>
             </section>            
         </main>
