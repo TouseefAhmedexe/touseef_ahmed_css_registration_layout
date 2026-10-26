@@ -50,3 +50,70 @@ h3 {
 #page-header p {
     margin: 0;
 }
+
+
+#top-navigation {
+    background-color: #0f2f73;
+    padding: 0.5rem 0;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    z-index: 100;
+}
+
+#top-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#top-navigation li {
+    display: inline-block;
+}
+
+#top-navigation a {
+    border-radius: 4px;
+    display: inline-block;
+    padding: 0.4rem 0.9rem;
+    text-decoration: none;
+}
+
+a:link {
+    color: #1b4db3;
+}
+
+a:visited {
+    color: #6a3fb5;
+}
+
+a:hover {
+    color: #d9480f;
+}
+
+a:active {
+    color: #b3261e;
+}
+
+a:focus {
+    outline: 3px solid #f5b301;
+    outline-offset: 2px;
+}
+
+#top-navigation a:link,
+#top-navigation a:visited {
+    color: white;
+}
+
+#top-navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffd54f;
+}
+
+#top-navigation a:active {
+    background-color: rgba(255, 255, 255, 0.35);
+    color: white;
+}
+
+section {
+    scroll-margin-top: 4rem;
+}
