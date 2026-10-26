@@ -24,3 +24,29 @@ h3 {
     width: 92%;
 }
 
+
+#page-header {
+    background: linear-gradient(135deg, #0f2f73, #2f6fed);
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    padding: 2rem 2rem 2rem 2.5rem;
+    position: relative;
+}
+
+#page-header::before {
+    background-color: #f5b301;
+    content: "";
+    inset: 0 auto 0 0;
+    position: absolute;
+    width: 0.6rem;
+}
+
+#page-header h1 {
+    margin: 0 0 0.5rem;
+}
+
+#page-header p {
+    margin: 0;
+}
