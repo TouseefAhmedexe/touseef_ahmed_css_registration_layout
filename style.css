@@ -134,3 +134,21 @@ main > section h2 {
     margin-top: 0;
     padding-bottom: 0.4rem;
 }
+
+
+.column-group {
+    background-color: #e3ecfb;
+    border: 2px dashed #1b4db3;
+    padding: 1rem;
+}
+
+.column-left {
+    float: left;
+    margin-right: 2%;
+    width: 58%;
+}
+
+.column-right {
+    float: right;
+    width: 40%;
+}
