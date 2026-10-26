@@ -283,9 +283,34 @@
                         <li>Change one CSS value at a time and watch what happens.</li>
                         <li>Write commit messages that say what the commit adds.</li>
                         <li>Example of a long web address: https://www.example.com/portfolio/projects/intellifyp-final-year-project-lifecycle-automation-and-archival-system</li>
-                        <li>Ask your instructor when a task sheet is not clear.</li>
                     </ul>
                 </div>
+            </section>
+
+            <section id="display-demo">
+                <h2>Display and Stacking Demo</h2>
+
+                <h3>Display and Visibility</h3>
+                <p class="demo-box">Box 1: normal box</p>
+                <p class="demo-box hidden-display">Box 2: display none</p>
+                <p class="demo-box hidden-visibility">Box 3: visibility hidden</p>
+                <p class="demo-box faded-box">Box 4: opacity 0.3</p>
+                <p class="demo-box">Box 5: normal box</p>
+                <p>
+                    Box 2 uses display none, so it takes no space. Box 3 uses visibility hidden,
+                    so an empty gap stays where it is. Box 4 uses opacity 0.3, so it stays faint
+                    and keeps its space.
+                </p>
+
+                <h3>Stacking Order</h3>
+                <div class="layer-demo">
+                    <p class="layer-first">First box, z-index 2</p>
+                    <p class="layer-second">Second box, z-index 1</p>
+                </div>
+                <p>
+                    The second box comes later in the HTML and is pulled up with a negative margin,
+                    but the first box stays on top because its z-index is higher.
+                </p>
             </section>           
         </main>
 
