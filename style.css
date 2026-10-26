@@ -190,3 +190,38 @@ main > section h2 {
     top: 0.75rem;
     z-index: 2;
 }
+
+
+.check-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.check-list li {
+    margin-bottom: 0.4rem;
+    padding-left: 1.6rem;
+    position: relative;
+}
+
+.check-list li::before {
+    color: #2e7d32;
+    content: "\2713";
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+}
+
+.intro-text::first-letter {
+    color: #1b4db3;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.intro-text::first-line {
+    font-weight: bold;
+}
+
+::selection {
+    background-color: #ffd54f;
+    color: #222222;
+}
