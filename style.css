@@ -346,3 +346,61 @@ button[type="reset"]:hover {
     background: #e8f0fe;
 }
 
+
+.table-wrapper {
+    background-color: white;
+    border: 1px solid #9db4e8;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 40rem;
+    width: 100%;
+}
+
+caption {
+    font-weight: bold;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th,
+td {
+    border: 1px solid #c5d0e3;
+    padding: 0.6rem 0.9rem;
+    text-align: left;
+}
+
+thead th {
+    background-color: #1b4db3;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8f0fe;
+}
+
+tbody tr:first-child td {
+    font-weight: bold;
+}
+
+tbody tr:last-child td {
+    border-bottom: 3px solid #1b4db3;
+}
+
+tbody tr:hover {
+    background-color: #ffe9a8;
+}
+
+tfoot th,
+tfoot td {
+    background-color: #dbe5f8;
+    font-weight: bold;
+}
+
